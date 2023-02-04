@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block');
+
+.cabecalho {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+}
+
+.cabecalho-logo {
+    padding: .5em 0;
+    width: 14.5em;
+}
+
+.cabecalho-menu {
+    font-size: 12px;
+    background-color: #272b3a87;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cabecalho-item-menu {
+    display: inline-block;
+    padding: 8px;
+}
+
+.cabecalho-item-menu a {
+    display: inline-block;
+    padding: .86em, .42em;
+}
+
+@media (min-width: 640px) {
+    .cabecalho {
+        padding: 0;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho-logo {
+        padding: 2.5em 0;
+    }
+
+    .cabecalho-menu {
+        background-color: transparent;
+        padding: 0px;
+    }
+
+    .cabecalho-item-matricular {
+        margin-left: .42em;
+        border-radius: 3px;
+        background-color: #e93d50;
+    }
+}
+
+@media (min-width: 770px) {
+    .cabecalho-item-matricular {
+        margin-left: .42em;
+        border-radius: 3px;
+        background-color: #e93d50;
+    }
+
+    .cabecalho-item-matricular a {
+        padding: .50rem .40rem;
+    }
+}
