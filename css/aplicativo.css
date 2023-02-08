@@ -71,8 +71,8 @@
 @media (min-width: 768px) {
     .chamada-aplicativo {
         background-image: url(../img/mockup-app.png);
-        background-size: 12rem;
-        background-position: left 5% center ;
+        background-size: 10rem;
+        background-position: left center ;
         background-repeat: no-repeat;
         padding: 5rem 20%;
         grid-template-columns: 1fr 9rem 9rem;
