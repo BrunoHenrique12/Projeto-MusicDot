@@ -114,20 +114,85 @@ figure img {
 }
 
 @media (max-width: 850px) {
+    .links { 
+
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #4286f4;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    
+    .links:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    .links::after {
+        content: '\00A0\1F517';
+    }
+
     .contato-secao {
         display: block;
         margin-left: 1em;
     }
+
+    .phone {
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 622px) {
+    .links { 
+
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #4286f4;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    
+    .links:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    .links::after {
+        content: '\00A0\1F517';
+    }
+
     .familia-tupfeln {
         float: none;
         margin: 0 auto;
     }
+
+    .phone {
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 446px) {
+    .links { 
+
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #4286f4;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    
+    .links:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    .links::after {
+        content: '\00A0\1F517';
+    }
+
     .contato-subtitulo {
         display: block;
         margin-bottom: 0;
@@ -139,14 +204,41 @@ figure img {
         border-left: 2px solid lightgray;
     }
 
+    .phone {
+        text-decoration: none;
+    }
+
     .rodape {
         font-size: .92em; 
     }
 }
 
 @media (max-width: 342px) {
+    .links { 
+
+        color: #000000;
+        text-decoration: none;
+        font-weight: bold;
+        background-color: #4286f4;
+        padding: 3px;
+        border-radius: 3px;
+    }
+    
+    .links:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    
+    .links::after {
+        content: '\00A0\1F517';
+    }
+
     .contato-info-descricao {
         display: block;
         margin-left: 1em;
-    }    
+    }  
+    
+    .phone {
+        text-decoration: none;
+    }
 }
